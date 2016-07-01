@@ -1,0 +1,31 @@
+body {
+	font-size: 16px;
+	line-height: 1.5em;
+	color:#333333;
+	font-family: 'Tahoma', Tahoma, sans-serif;
+}
+
+div#content{
+	margin: auto;
+	width: 800px;
+}
+
+div#content > h1{
+	margin:20px;
+	text-align: center;
+}
+
+div#content > div.flower{
+	margin:0;
+}
+
+div#content > div.flower{
+	display:inline-block;
+	padding:15px 20px;
+	margin:10px;
+	vertical-align: top;
+}
+
+div#content div.flower > img {
+	with:200px;
+}
